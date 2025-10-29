@@ -1,0 +1,38 @@
+#playing-cards {
+  display: flex;
+  min-width: 100px;
+  min-height: 150px;
+  border: 2px solid black;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  width: 70px;
+  height: 60px;
+  border: 2px dotted black;
+  justify-content: space-between;
+}
+
+.left, .middle, .right {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.middle {
+align-self:center;
+display: flex;
+flex-direction: column;
+}
+
+.right {
+  align-self: flex-end;
+}
